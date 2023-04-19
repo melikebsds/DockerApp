@@ -1,0 +1,7 @@
+version: '3'  # Docker Compose sürümü
+
+services:
+  go-app:
+    build: .
+    ports:
+      - "8080:8080"  # Host makinedeki port ile Docker konteynerindeki portu eşleştirme
