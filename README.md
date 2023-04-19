@@ -17,7 +17,7 @@ Aşağıdaki adımları izleyerek projeyi çalıştırabilirsiniz:
 git clone https://github.com/melikebsds/DockerApp.git
 
 2. Docker Compose ile projeyi başlatın:
-cd app
+cd klasorAdı
 docker build -t my-go-app .
 docker run my-go-app
 docker-compose up
